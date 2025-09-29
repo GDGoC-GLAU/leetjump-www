@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Viewport } from "next";
+import Script from "next/script";
 
 export const viewport: Viewport = {
   themeColor: "#f8f7f4",
@@ -78,6 +79,14 @@ export default function RootLayout({
         className={`${jetbrainsMono.variable} font-mono antialiased`}
         style={{ letterSpacing: "-0.05em" }}
       >
+        {process.env.NODE_ENV === "production" && (
+          <Script
+            defer
+            src="https://analytics.lirena.in/script.js"
+            data-website-id="586b24df-415c-43ab-9721-37145cd15d1f"
+            strategy="afterInteractive"
+          />
+        )}
         {children}
       </body>
     </html>
