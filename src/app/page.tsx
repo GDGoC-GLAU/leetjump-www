@@ -67,7 +67,24 @@ export default function Home() {
                   <Github className="w-5 h-5" />
                   View on GitHub
                 </a>
-              </div>{" "}
+              </div>
+
+              {/* Peerlist Launch Badge */}
+              <div className="flex justify-start">
+                <a
+                  href="https://peerlist.io/lirena00/project/leetjump"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="transition-all duration-150 hover:translate-y-[-1px]"
+                >
+                  <img
+                    src="https://peerlist.io/api/v1/projects/embed/PRJH8OE9LJRGA667EFRBGMP8ND89J9?showUpvote=true&theme=light"
+                    alt="LeetJump on Peerlist"
+                    style={{ width: "auto", height: "62px" }}
+                  />
+                </a>
+              </div>
+
               <div className="flex items-center gap-6 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-chart-3" />
