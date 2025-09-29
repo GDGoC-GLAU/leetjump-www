@@ -72,7 +72,7 @@ export default function Header({
             )}
             {showLogo && (
               <Link href="/" className="flex items-center gap-2">
-                <img src="/favicon.png" alt="LeetJump" className="w-6 h-6" />
+                <img src="/favicon.png" alt="LeetJump" className="w-8 h-8" />
                 <span className="text-2xl font-bold">LeetJump</span>
               </Link>
             )}

@@ -9,7 +9,6 @@ import {
   Target,
 } from "lucide-react";
 import Link from "next/link";
-import BrowserDetection from "@/components/BrowserDetection";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Metadata } from "next";
@@ -19,6 +18,29 @@ export const metadata: Metadata = {
   description:
     "Thank you for installing LeetJump! Learn how to get started with the fastest way to navigate LeetCode problems using keyboard shortcuts.",
   robots: "noindex", // Don't index the thanks page
+  openGraph: {
+    title: "Welcome to LeetJump! - Thank You for Installing",
+    description:
+      "Thank you for installing LeetJump! Learn how to get started with the fastest way to navigate LeetCode problems using keyboard shortcuts.",
+    type: "website",
+    url: "https://leetjump.lirena.in/thanks",
+    siteName: "LeetJump",
+    images: [
+      {
+        url: "/og_2.png",
+        width: 1200,
+        height: 630,
+        alt: "Welcome to LeetJump - Getting Started",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Welcome to LeetJump! - Thank You for Installing",
+    description:
+      "Thank you for installing LeetJump! Learn how to get started with the fastest way to navigate LeetCode problems using keyboard shortcuts.",
+    images: ["/og_2.png"],
+  },
 };
 
 export default function ThanksPage() {

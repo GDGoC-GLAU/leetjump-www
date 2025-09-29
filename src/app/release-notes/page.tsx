@@ -19,6 +19,29 @@ export const metadata: Metadata = {
     "Stay updated with the latest LeetJump browser extension features, improvements, and bug fixes. View complete changelog and version history.",
   keywords:
     "leetjump release notes, extension updates, changelog, browser extension versions",
+  openGraph: {
+    title: "Release Notes - LeetJump Extension Updates",
+    description:
+      "Stay updated with the latest LeetJump browser extension features, improvements, and bug fixes. View complete changelog and version history.",
+    type: "website",
+    url: "https://leetjump.lirena.in/release-notes",
+    siteName: "LeetJump",
+    images: [
+      {
+        url: "/og_3.png",
+        width: 1200,
+        height: 630,
+        alt: "LeetJump Release Notes and Updates",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Release Notes - LeetJump Extension Updates",
+    description:
+      "Stay updated with the latest LeetJump browser extension features, improvements, and bug fixes. View complete changelog and version history.",
+    images: ["/og_3.png"],
+  },
 };
 
 // GitHub Release type

@@ -18,6 +18,29 @@ export const metadata: Metadata = {
     "LeetJump's comprehensive privacy policy. We collect no personal information, store all data locally, and maintain complete transparency about our privacy practices.",
   keywords:
     "leetjump privacy policy, browser extension privacy, data protection, no tracking",
+  openGraph: {
+    title: "Privacy Policy - LeetJump Browser Extension",
+    description:
+      "LeetJump's comprehensive privacy policy. We collect no personal information, store all data locally, and maintain complete transparency about our privacy practices.",
+    type: "website",
+    url: "https://leetjump.lirena.in/privacy",
+    siteName: "LeetJump",
+    images: [
+      {
+        url: "/og_4.png",
+        width: 1200,
+        height: 630,
+        alt: "LeetJump Privacy Policy - Your Data Protection",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Privacy Policy - LeetJump Browser Extension",
+    description:
+      "LeetJump's comprehensive privacy policy. We collect no personal information, store all data locally, and maintain complete transparency about our privacy practices.",
+    images: ["/og_4.png"],
+  },
 };
 
 export default function PrivacyPage() {
