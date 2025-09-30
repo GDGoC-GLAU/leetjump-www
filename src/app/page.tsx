@@ -68,9 +68,8 @@ export default function Home() {
                   View on GitHub
                 </a>
               </div>
-
-              {/* Peerlist Launch Badge */}
-              <div className="flex justify-start">
+              {/* Launch Badges */}
+              <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <a
                   href="https://peerlist.io/lirena00/project/leetjump"
                   target="_blank"
@@ -80,11 +79,25 @@ export default function Home() {
                   <img
                     src="https://peerlist.io/api/v1/projects/embed/PRJH8OE9LJRGA667EFRBGMP8ND89J9?showUpvote=true&theme=light"
                     alt="LeetJump on Peerlist"
-                    style={{ width: "auto", height: "62px" }}
+                    style={{ width: "auto", height: "54px" }}
                   />
                 </a>
-              </div>
 
+                <a
+                  href="https://www.producthunt.com/products/leetjump?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-leetjump"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-all duration-150 hover:translate-y-[-1px]"
+                >
+                  <img
+                    src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1021239&theme=light&t=1759237435689"
+                    alt="LeetJump - Instant LeetCode access with Alt+L | Product Hunt"
+                    style={{ width: "250px", height: "54px" }}
+                    width="250"
+                    height="54"
+                  />
+                </a>
+              </div>{" "}
               <div className="flex items-center gap-6 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-chart-3" />
