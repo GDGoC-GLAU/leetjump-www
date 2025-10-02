@@ -37,7 +37,7 @@ export default function Header({
     async function fetchGithubStats() {
       try {
         const response = await fetch(
-          "https://api.github.com/repos/lirena00/leetjump"
+          "https://api.github.com/repos/GDGoC-GLAU/leetjump"
         );
         if (response.ok) {
           const data = await response.json();
