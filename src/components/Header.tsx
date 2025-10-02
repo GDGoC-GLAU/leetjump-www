@@ -88,7 +88,7 @@ export default function Header({
 
             {/* GitHub Stars */}
             <a
-              href="https://github.com/lirena00/leetjump"
+              href="https://github.com/GDGoC-GLAU/leetjump"
               className="inline-flex items-center gap-2 px-3 py-2 bg-background border border-border text-sm transition-all duration-150 hover:translate-y-[-1px] hover:border-foreground/20"
               target="_blank"
               rel="noopener noreferrer"

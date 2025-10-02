@@ -59,7 +59,7 @@ export default function Home() {
                 <BrowserDetection scrollToInstall={true} />
 
                 <a
-                  href="https://github.com/lirena00/leetjump"
+                  href="https://github.com/GDGoC-GLAU/leetjump"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:translate-y-[-1px] active:translate-y-0 border border-border"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -410,7 +410,7 @@ export default function Home() {
                   For developers who want the latest features
                 </p>
                 <a
-                  href="https://github.com/lirena00/leetjump"
+                  href="https://github.com/GDGoC-GLAU/leetjump"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white font-medium transition-all duration-150 hover:translate-y-[-1px]"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -527,7 +527,7 @@ export default function Home() {
               <BrowserDetection />
 
               <a
-                href="https://github.com/lirena00/leetjump"
+                href="https://github.com/GDGoC-GLAU/leetjump"
                 className="inline-flex items-center gap-2 px-8 py-4 bg-muted text-muted-foreground font-medium text-lg transition-all duration-150 hover:translate-y-[-1px] active:translate-y-0 border border-border"
                 target="_blank"
                 rel="noopener noreferrer"

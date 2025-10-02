@@ -260,7 +260,7 @@ export default function ThanksPage() {
               </a>
 
               <a
-                href="https://github.com/lirena00/leetjump"
+                href="https://github.com/GDGoC-GLAU/leetjump"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:translate-y-[-1px] hover:bg-muted/80 border border-border"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -35,7 +35,7 @@ export default function Footer() {
           {/* Right side - Navigation links */}
           <div className="flex items-center gap-6">
             <Link
-              href="https://github.com/lirena00/leetjump"
+              href="https://github.com/GDGoC-GLAU/leetjump"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               target="_blank"
               rel="noopener noreferrer"

@@ -186,7 +186,7 @@ export default async function ReleaseNotesPage() {
                           {formatDate(release.published_at)}
                         </div>
                         <a
-                          href={`https://github.com/lirena00/leetjump/releases/tag/${release.tag_name}`}
+                          href={`https://github.com/GDGoC-GLAU/leetjump/releases/tag/${release.tag_name}`}
                           className="inline-flex items-center gap-1 hover:text-foreground transition-colors"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -276,7 +276,7 @@ export default async function ReleaseNotesPage() {
               </div>
               <div className="pt-4">
                 <a
-                  href="https://github.com/lirena00/leetjump/releases"
+                  href="https://github.com/GDGoC-GLAU/leetjump/releases"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground font-medium text-sm transition-all duration-150 hover:translate-y-[-1px]"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -297,7 +297,7 @@ export default async function ReleaseNotesPage() {
               Complete release history and changelog are available on GitHub
             </p>
             <a
-              href="https://github.com/lirena00/leetjump/releases"
+              href="https://github.com/GDGoC-GLAU/leetjump/releases"
               className="inline-flex items-center gap-2 px-4 py-2 bg-card border border-border font-medium text-sm transition-all duration-150 hover:translate-y-[-1px]"
               target="_blank"
               rel="noopener noreferrer"
