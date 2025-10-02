@@ -34,7 +34,7 @@ const BrowserDetection = ({
         return {
           name: "Firefox",
           icon: FirefoxIcon,
-          storeUrl: "https://addons.mozilla.org/firefox/",
+          storeUrl: "https://addons.mozilla.org/en-US/firefox/addon/leetjump",
           storeName: "Firefox Add-ons",
         };
       }

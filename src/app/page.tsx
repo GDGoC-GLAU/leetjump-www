@@ -349,8 +349,7 @@ export default function Home() {
               Get started in seconds
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Available for Chrome and Chromium browsers, with Firefox support
-              coming soon.
+              Available for Chrome, Chromium browsers, and Firefox.
             </p>
           </div>
 
@@ -379,21 +378,23 @@ export default function Home() {
 
             {/* Firefox Add-ons */}
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-chart-3/20 mx-auto flex items-center justify-center relative">
+              <div className="w-16 h-16 bg-chart-3/20 mx-auto flex items-center justify-center">
                 <Firefox className="w-9 h-9 text-chart-3 font-bold" />
-                <div className="absolute -top-1 -right-1 w-5 h-5 bg-orange-500 rounded-full flex items-center justify-center">
-                  <Clock className="w-3 h-3 text-white" />
-                </div>
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2">Firefox Add-ons</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Coming soon to Firefox extension store
+                  For Firefox browsers and extensions
                 </p>
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-muted text-muted-foreground font-medium border border-border cursor-not-allowed">
-                  <Clock className="w-4 h-4" />
-                  Coming Soon
-                </div>
+                <a
+                  href="https://addons.mozilla.org/en-US/firefox/addon/leetjump"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-3 text-white font-medium transition-all duration-150 hover:translate-y-[-1px]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Download className="w-4 h-4" />
+                  Install Extension
+                </a>
               </div>
             </div>
 
