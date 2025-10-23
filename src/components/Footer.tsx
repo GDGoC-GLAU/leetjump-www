@@ -9,6 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Left side - Logo and brand name with attribution */}
           <div className="flex flex-col items-center gap-3 md:items-start">
+            <a href="">
             <div className="flex items-center gap-3">
               <Image
                 src="/favicon.png"
@@ -19,7 +20,11 @@ export default function Footer() {
               />
               <span className="text-lg font-semibold">LeetJump</span>
             </div>
-            <div className="text-sm text-muted-foreground flex items-center gap-1">
+            </a>
+          </div>
+
+          {/* At Center */}
+          <div className="text-sm xl:text-lg xl:ml-28 text-muted-foreground flex items-center gap-1">
               Made with <span className="text-red-500 text-base">❤️</span> by{" "}
               <a
                 href="https://www.lirena.in/"
@@ -30,13 +35,12 @@ export default function Footer() {
                 lirena00
               </a>
             </div>
-          </div>
 
           {/* Right side - Navigation links */}
           <div className="flex items-center gap-6">
             <Link
               href="https://github.com/GDGoC-GLAU/leetjump"
-              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="flex items-center gap-2 xl:text-lg text-sm text-muted-foreground hover:text-foreground transition-colors"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,13 +49,13 @@ export default function Footer() {
             </Link>
             <Link
               href="/release-notes"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm xl:text-lg text-muted-foreground hover:text-foreground transition-colors"
             >
               Release Notes
             </Link>
             <Link
               href="/privacy"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm xl:text-lg text-muted-foreground hover:text-foreground transition-colors"
             >
               Privacy
             </Link>

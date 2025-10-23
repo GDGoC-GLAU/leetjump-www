@@ -21,8 +21,6 @@ import {
   Gift,
 } from "lucide-react";
 import { Firefox } from "@/components/icons/Firefox";
-import Link from "next/link";
-import Image from "next/image";
 import InteractiveDemo from "@/components/InteractiveDemo";
 import BrowserDetection from "@/components/BrowserDetection";
 import Header from "@/components/Header";
@@ -60,7 +58,7 @@ export default function Home() {
 
                 <a
                   href="https://github.com/GDGoC-GLAU/leetjump"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:translate-y-[-1px] active:translate-y-0 border border-border"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:-translate-y-px active:translate-y-0 border border-border hover:shadow"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -74,7 +72,7 @@ export default function Home() {
                   href="https://peerlist.io/lirena00/project/leetjump"
                   target="_blank"
                   rel="noreferrer"
-                  className="transition-all duration-150 hover:translate-y-[-1px]"
+                  className="transition-all duration-150 hover:-translate-y-px "
                 >
                   <img
                     src="https://peerlist.io/api/v1/projects/embed/PRJH8OE9LJRGA667EFRBGMP8ND89J9?showUpvote=true&theme=light"
@@ -87,7 +85,7 @@ export default function Home() {
                   href="https://www.producthunt.com/products/leetjump?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-leetjump"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="transition-all duration-150 hover:translate-y-[-1px]"
+                  className="transition-all duration-150 hover:-translate-y-px"
                 >
                   <img
                     src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1021239&theme=light&t=1759237435689"
@@ -98,7 +96,7 @@ export default function Home() {
                   />
                 </a>
               </div>{" "}
-              <div className="flex items-center gap-6 text-sm text-muted-foreground">
+              <div className="flex items-center gap-6 text-lg text-muted-foreground">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-chart-3" />
                   <span>3000+ Problems</span>
@@ -187,7 +185,7 @@ export default function Home() {
             </div>
 
             {/* Support LeetJump */}
-            <div className="bg-gradient-to-br from-chart-2/10 to-chart-2/5 border border-chart-2/20 p-6 space-y-4 relative overflow-hidden">
+            <div className="bg-linear-to-br from-chart-2/10 to-chart-2/5 border border-chart-2/20 p-6 space-y-4 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-20 h-20 bg-chart-2/10 rounded-full -translate-y-10 translate-x-10"></div>
               <div className="relative">
                 <div className="flex items-center gap-3 mb-4">
@@ -200,7 +198,7 @@ export default function Home() {
                 </p>
                 <a
                   href="#support"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white font-medium text-sm transition-all duration-150 hover:translate-y-[-1px] hover:bg-chart-2/90"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white font-medium text-sm transition-all duration-150 hover:-translate-y-px hover:bg-chart-2/90"
                 >
                   <Heart className="w-4 h-4" />
                   Sponsor
@@ -366,7 +364,7 @@ export default function Home() {
                 </p>
                 <a
                   href="https://chromewebstore.google.com/detail/leetjump-leetcode-quick-s/mapaacjngblliffleponocgiopaclfld"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-4 text-white font-medium transition-all duration-150 hover:translate-y-[-1px]"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-4 text-white font-medium transition-all duration-150 hover:-translate-y-px"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -388,7 +386,7 @@ export default function Home() {
                 </p>
                 <a
                   href="https://addons.mozilla.org/en-US/firefox/addon/leetjump"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-3 text-white font-medium transition-all duration-150 hover:translate-y-[-1px]"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-3 text-white font-medium transition-all duration-150 hover:-translate-y-px"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -412,7 +410,7 @@ export default function Home() {
                 </p>
                 <a
                   href="https://github.com/GDGoC-GLAU/leetjump"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white font-medium transition-all duration-150 hover:translate-y-[-1px]"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white font-medium transition-all duration-150 hover:-translate-y-px"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -455,7 +453,7 @@ export default function Home() {
               <div className="space-y-3">
                 <a
                   href="https://buymeacoffee.com/lirena00"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background font-medium transition-all duration-150 hover:translate-y-[-1px] w-full justify-center"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background font-medium transition-all duration-150 hover:-translate-y-px w-full justify-center"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -465,7 +463,7 @@ export default function Home() {
                 </a>
                 <a
                   href="https://github.com/sponsors/lirena00"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:translate-y-[-1px] border border-border w-full justify-center"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:-translate-y-px border border-border w-full justify-center"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -529,7 +527,7 @@ export default function Home() {
 
               <a
                 href="https://github.com/GDGoC-GLAU/leetjump"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-muted text-muted-foreground font-medium text-lg transition-all duration-150 hover:translate-y-[-1px] active:translate-y-0 border border-border"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-muted text-muted-foreground font-medium text-lg transition-all duration-150 hover:-translate-y-px active:translate-y-0 border border-border hover:shadow"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -538,7 +536,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="text-sm text-muted-foreground">
+            <div className="xl:text-lg text-sm text-muted-foreground">
               Free • Open Source • No Registration Required
             </div>
           </div>
