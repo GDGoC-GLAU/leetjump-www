@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import DarkModeToggle from "./DarkButton";
 
 interface HeaderProps {
   title?: string;
@@ -89,7 +90,7 @@ export default function Header({
             {/* GitHub Stars */}
             <a
               href="https://github.com/GDGoC-GLAU/leetjump"
-              className="inline-flex items-center gap-2 px-3 py-2 bg-background border border-border text-sm transition-all duration-150 hover:translate-y-[-1px] hover:border-foreground/20"
+              className="inline-flex items-center gap-2 px-3 py-2 bg-background border border-border text-sm transition-all duration-150 hover:-translate-y-px hover:border-foreground/20"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -106,7 +107,7 @@ export default function Header({
             {showBackButton ? (
               <Link
                 href="/#support"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white text-sm transition-all duration-150 hover:translate-y-[-1px] hover:bg-chart-2/90"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white text-sm transition-all duration-150 hover:-translate-y-px hover:bg-chart-2/90"
               >
                 <Heart className="w-4 h-4" />
                 Support
@@ -114,12 +115,13 @@ export default function Header({
             ) : (
               <a
                 href="#support"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white text-sm transition-all duration-150 hover:translate-y-[-1px] hover:bg-chart-2/90"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-chart-2 text-white text-sm transition-all duration-150 hover:-translate-y-px hover:bg-chart-2/90"
               >
                 <Heart className="w-4 h-4" />
                 Support
               </a>
             )}
+            <DarkModeToggle></DarkModeToggle>
           </div>
         </div>
       </div>

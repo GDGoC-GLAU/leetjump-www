@@ -83,7 +83,7 @@ export default function DemoCarousel() {
     <div className="max-w-5xl mx-auto">
       {/* Main Carousel */}
       <div className="relative bg-card border border-border overflow-hidden mb-8">
-        <div className="relative aspect-[16/10] lg:aspect-[20/12]">
+        <div className="relative aspect-16/10 lg:aspect-20/12">
           <Image
             src={demos[currentSlide].image}
             alt={demos[currentSlide].alt}
@@ -159,7 +159,7 @@ export default function DemoCarousel() {
                   : "border-border hover:border-muted-foreground/50"
               }`}
             >
-              <div className="aspect-[16/10] relative overflow-hidden">
+              <div className="aspect-16/10 relative overflow-hidden">
                 <Image
                   src={demo.image}
                   alt={demo.alt}

@@ -251,7 +251,7 @@ export default function ThanksPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://discord.gg/leetjump"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-chart-2 text-white font-medium transition-all duration-150 hover:translate-y-[-1px] hover:bg-chart-2/90"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-chart-2 text-white font-medium transition-all duration-150 hover:translate-y-px hover:bg-chart-2/90"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -261,7 +261,7 @@ export default function ThanksPage() {
 
               <a
                 href="https://github.com/GDGoC-GLAU/leetjump"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:translate-y-[-1px] hover:bg-muted/80 border border-border"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-muted text-muted-foreground font-medium transition-all duration-150 hover:translate-y-1px hover:bg-muted/80 border border-border"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -271,7 +271,7 @@ export default function ThanksPage() {
 
               <a
                 href="https://github.com/sponsors/lirena00"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-chart-2 to-chart-2/80 text-white font-medium transition-all duration-150 hover:translate-y-[-1px] hover:from-chart-2/90 hover:to-chart-2/70"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-chart-2 to-chart-2/80 text-white font-medium transition-all duration-150 hover:-translate-y-px hover:from-chart-2/90 hover:to-chart-2/70"
                 target="_blank"
                 rel="noopener noreferrer"
               >

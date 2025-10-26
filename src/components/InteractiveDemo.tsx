@@ -156,7 +156,7 @@ const InteractiveDemo = () => {
                 }`}
                 style={{ animationDelay: `${index * 50}ms` }}
               >
-                <div className="text-muted-foreground font-mono text-xs min-w-[2rem] text-left">
+                <div className="text-muted-foreground font-mono text-xs min-w-8 text-left">
                   {result.id}
                 </div>
                 <div className="flex-1 text-foreground font-medium">

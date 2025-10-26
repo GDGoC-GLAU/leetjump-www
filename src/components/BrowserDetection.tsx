@@ -67,7 +67,7 @@ const BrowserDetection = ({
   return (
     <a
       href={scrollToInstall ? "#get-started" : browserInfo.storeUrl}
-      className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium transition-all duration-150 hover:translate-y-[-1px] active:translate-y-0 border border-transparent"
+      className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium transition-all duration-150 hover:-translate-y-px active:translate-y-0 border border-transparent"
       target={scrollToInstall ? "_self" : "_blank"}
       rel={scrollToInstall ? undefined : "noopener noreferrer"}
       onClick={handleClick}
